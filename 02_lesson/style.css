@@ -1,0 +1,70 @@
+/* Unversal selector */
+* {
+  color: black;
+}
+
+/* type selector */
+main {
+  background-color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* class selector */
+.paragraph-class {
+  text-align: justify;
+  color: blueviolet;
+}
+
+/* id selector */
+
+/* combination */
+.large {
+  font-size: 30px;
+}
+.red {
+  color: red;
+}
+/* and combination */
+h5.capital {
+  text-transform: uppercase;
+}
+/* Or combination */
+h4,
+h5 {
+  color: rebeccapurple;
+}
+
+/* Descendant selection */
+main a {
+  color: green;
+}
+main > h5 {
+  color: green;
+}
+
+/* Sibling selection */
+/* adjacent sbling */
+ul + div {
+  background-color: burlywood;
+}
+/* general sibling */
+.green ~ li {
+  color: green;
+}
+/* attribute selection */
+input[type="button"] {
+  background-color: rebeccapurple;
+  color: white;
+}
+[href*="example"] {
+  color: magenta;
+}
+[href^="https"] {
+  color: blue;
+}
+[href$="org"] {
+  color: yellow;
+}

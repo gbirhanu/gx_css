@@ -1,0 +1,29 @@
+/* 
+.box {
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+  margin-left: 200px;
+  background-color: lightblue;
+  border: 20px solid transparent;
+  font-size: 2rem;
+  text-align: center;
+  /* border: 20px solid yellow;
+    border-radius: 10px 10px 50% 50%; */
+/* border-image: url(assets/border.png) 30 round;
+
+} */
+.banner {
+  min-height: 60vh;
+  background: url(assets/building.jpg), rgba(255, 0, 150, 0.3);
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: grid;
+  place-items: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+}

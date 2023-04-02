@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: lightblue;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: aliceblue;
+  margin-block-start: 3rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* writing-mode: vertical-rl; */
+  /* top, left right bottom, start end */
+}
+p {
+  font-style: normal;
+  font-weight: 100;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 2rem;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-align: left;
+  word-break: break-all;
+}
+p::first-letter {
+  font-size: 5rem;
+  font-weight: bold;
+  float: left;
+  background-color: lightblue;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+p::first-line {
+  font-weight: bold;
+}
+h1 {
+  text-transform: capitalize;
+  /* text-decoration-color: red;
+  text-decoration-line: underline;
+  text-decoration-style: double; */
+  /* text-align: center;
+  padding: 100px;
+  text-shadow: 2px 2px 2px yellow, 0 3px 2px blue;
+  text-orientation: upright;
+  writing-mode: vertical-rl; */
+}
+/* p.new {
+  width: 50%;
+  padding: 2rem;
+  font-size: 2rem;
+  border-inline-start: 2px solid red;
+  border-inline-end: 2px solid red;
+  writing-mode: horizontal-tb;
+} */
+ul {
+  margin-left: 200px;
+}
+li {
+  font-size: 2rem;
+  list-style-type: square;
+}

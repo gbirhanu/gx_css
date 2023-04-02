@@ -1,0 +1,6 @@
+@media print {
+  body {
+    background-color: rgb(196, 55, 55);
+    padding: 3cm;
+  }
+}

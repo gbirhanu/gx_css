@@ -1,0 +1,60 @@
+:root {
+  --color-green: green;
+  --color-primary: hsl(244 50% 30%);
+  --color-seconday: rgba(250 0 150 /0.3);
+  --banner: url(building.jpg);
+}
+/* .post h2 , 
+.post ul {
+    color: green;
+} */
+/* .post :not(h2) {
+  color: green;
+  word()
+} */
+.post :not(h2) {
+  color: var(--color-primary);
+}
+/* .article {
+  background-image: var(--banner);
+  min-height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
+h3 {
+  color: var(--color-seconday);
+}
+a::after {
+  content: attr(href);
+}
+
+/* calc */
+p {
+  background-color: lightblue;
+  outline: 2px solid blue;
+  padding: 20px;
+  /* width: calc(100% - 30rem); */
+  width: max(20vw, 20rem);
+}
+
+/* clamp */
+h1 {
+  font-size: clamp(2rem, 1rem + 3vw, 3rem);
+}
+
+/* Transform */
+.box {
+  background-color: lightblue;
+  outline: 2px solid blue;
+  padding: 50px;
+  width: 200px;
+  /* transform: rotateX(10deg) rotateY(30deg) rotateZ(45deg);
+   */
+  /* transform: rotate3d(1,1,1, 1000deg); */
+  transform: translatex(40px) translateY(40px);
+  transform: skew(100deg);
+}
+.box:hover {
+  transform: scaleX(1.2) scaleY(1.2);
+}

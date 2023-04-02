@@ -1,0 +1,54 @@
+.box {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  text-align: right;
+}
+
+.first {
+  z-index: 3;
+  background-color: red;
+  top: 10px;
+  left: 10px;
+}
+.second {
+  z-index: 2;
+  background-color: black;
+  top: 30px;
+  left: 30px;
+}
+.third {
+  z-index: 1;
+  background-color: green;
+  top: 50px;
+  left: 50px;
+}
+.fourth {
+  background-color: orangered;
+  left: 70px;
+  top: 70px;
+}
+
+.parent {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: lightblue;
+  width: 200px;
+  height: 250px;
+  outline: 2px solid green;
+  opacity: 50%;
+}
+.child {
+  position: relative;
+  width: 250px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  top: 100px;
+  margin-left: -20px;
+  z-index: -10;
+}

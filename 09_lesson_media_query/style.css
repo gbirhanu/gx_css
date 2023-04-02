@@ -1,0 +1,40 @@
+body {
+  font-size: 20px;
+}
+
+/* @media all and (orientation: landscape) {
+  body {
+    background-color: red;
+  }
+} */
+
+/* @media (min-width: 800px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: yellow;
+    color: black;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+} */
+
+@media (min-width: 500px) {
+  article {
+    column-count: 2;
+  }
+}
+@media (min-width: 800px) {
+  article {
+    column-count: 3;
+  }
+}

@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  background-color: blue;
+  padding: 15px;
+  display: flow-root;
+}
+/* header::after{
+    content: '';
+    display: block;
+    clear: both;
+} */
+nav {
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.card {
+  background-color: aqua;
+  color: black;
+  padding-top: 20px;
+  display: flow-root;
+}
+.card > img {
+  width: 150px;
+  float: left;
+  margin-right: 5px;
+}
+h1 {
+  color: white;
+  float: center;
+}

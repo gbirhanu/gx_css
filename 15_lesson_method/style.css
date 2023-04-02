@@ -1,0 +1,43 @@
+body {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 2px solid lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.card__header {
+  color: rebeccapurple;
+  text-decoration-line: underline;
+}
+.card__content p {
+  text-align: justify;
+  line-height: 1.4;
+}
+.card--bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-purple-400 {
+  background-color: rebeccapurple;
+}
+.txt-underline {
+  text-decoration-line: underline;
+  text-decoration-color: lightblue;
+  text-decoration-style: double;
+  color: lightblue;
+  text-align: center;
+}
+.padding-30 {
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.txt-blue-700 {
+  color: lightblue;
+}

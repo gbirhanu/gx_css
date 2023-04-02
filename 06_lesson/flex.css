@@ -1,0 +1,86 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+header {
+  background-color: blue;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-flow: row wrap;
+}
+a#about {
+  order: -1;
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 20px;
+}
+h1 {
+  color: white;
+  align-self: flex-start;
+}
+
+.box {
+  font-size: 20px;
+  outline: 1px lime;
+  padding: 15px;
+}
+.one {
+  background-color: black;
+  color: white;
+}
+.two {
+  background-color: brown;
+  color: white;
+}
+.three {
+  background-color: green;
+  color: white;
+}
+.card {
+  background-color: rgb(52, 22, 91);
+  color: black;
+  padding-top: 20px;
+  width: 250px;
+  margin-left: 50px;
+  padding-left: 18px;
+}
+.card p {
+  color: white;
+  font-size: 20px;
+}
+.card > img {
+  width: 100px;
+}
+main {
+  display: flex;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button > img {
+  width: 35px;
+}
+button {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  font-size: 20px;
+  padding: 15px;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}

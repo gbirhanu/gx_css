@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  background-color: steelblue;
+  border: 1px solid skyblue;
+  color: white;
+}
+body {
+  height: 100vh;
+  display: grid;
+
+  grid-template-areas:
+    "header header header"
+    "nav content sidebar"
+    "nav footer footer";
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-rows: 80px 1fr 70px;
+}
+
+header {
+  grid-area: header;
+}
+main {
+  grid-area: content;
+}
+nav {
+  grid-area: nav;
+}
+aside {
+  grid-area: sidebar;
+}
+footer {
+  grid-area: footer;
+}

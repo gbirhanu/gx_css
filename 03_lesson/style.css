@@ -1,0 +1,97 @@
+.pelement::after {
+  content: "after";
+  color: magenta;
+}
+.pelement::before {
+  content: "Before";
+  color: red;
+}
+
+button:hover {
+  font-size: 30px;
+}
+
+button:focus {
+  background-color: rebeccapurple;
+  color: white;
+}
+button:disabled {
+  color: red;
+}
+input:required {
+  background-color: yellow;
+}
+
+input[type="radio"]:checked + label {
+  color: magenta;
+}
+
+/* pseodo class based on posiont */
+p:first-child {
+  color: blue;
+}
+span:last-child {
+  color: blue;
+}
+
+span:only-child {
+  color: red;
+}
+
+strong:first-of-type {
+  color: red;
+}
+h4:first-of-type {
+  color: magenta;
+}
+h4:last-of-type {
+  color: green;
+}
+strong:only-of-type {
+  color: gold;
+}
+
+table,
+tr > * {
+  border: 1px solid;
+}
+tr:first-child {
+  background-color: black;
+  color: white;
+}
+tr:last-child {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(2n) {
+  background-color: magenta;
+  color: white;
+}
+tr:nth-last-child(5) {
+  background-color: green;
+}
+
+tr:nth-last-of-type(2) {
+  color: gold;
+}
+
+tr:nth-of-type(2n) {
+  background-color: red;
+  color: white;
+}
+tr:last-of-type {
+  background-color: black;
+}
+
+h5 {
+  font-size: 30px;
+}
+h5 {
+  color: red;
+}
+#h5 {
+  color: gold;
+}
+.hh {
+  color: blue !important;
+}

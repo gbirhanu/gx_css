@@ -1,0 +1,17 @@
+h1 {
+  color: hsla(262 60% 33% /0.2);
+}
+div {
+  width: 100px;
+  background: rgb(33, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(33, 0, 36, 1) 0%,
+    rgba(121, 9, 109, 1) 35%,
+    rgba(255, 0, 159, 1) 100%
+  );
+  color: #fff;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
